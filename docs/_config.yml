@@ -1,5 +1,5 @@
 # Book settings
-title:
+title: "GenZ Protest Analysis: Social Contract in MENA"
 author: Development Data Group
 logo: docs/images/logo.png
 only_build_toc_files: false
@@ -42,3 +42,5 @@ sphinx:
   config:
     html_show_copyright: false
     html_last_updated_fmt: "%b %d, %Y"
+    # Disable epub builder to avoid imghdr module issues in Python 3.14
+    exclude_patterns: ['_build', 'Thumbs.db', '.DS_Store']
