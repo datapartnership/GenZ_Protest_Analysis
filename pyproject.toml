@@ -51,9 +51,18 @@ skip = 'docs/_build,docs/bibliography.bib,*.png,*.gz,*.whl'
 ignore-regex = '^\s*"image\/png":\s.*'
 ignore-words-list = "gost,Nd"
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/template"]
+
 [tool.hatch.build.targets.sdist]
 include = [
-    "src/**/*"
+    "src/**/*",
+    "docs/**/*",
+    "notebooks/**/*",
+    "data/**/*",
+    "README.md",
+    "LICENSE",
+    "CITATION.cff"
 ]
 
 [tool.hatch.version]
