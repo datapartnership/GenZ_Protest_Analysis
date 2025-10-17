@@ -5,4 +5,4 @@ parts:
   - caption: Protests and Social Contract
     chapters:
       - file: notebooks/social-contract.ipynb
-      - file: notebooks/protest_overview.ipynb
+      - file: notebooks/demographic.ipynb
