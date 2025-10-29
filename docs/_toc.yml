@@ -7,3 +7,4 @@ parts:
       - file: notebooks/social-contract.ipynb
       - file: notebooks/demographic.ipynb
       - file: notebooks/protest_overview.ipynb
+      - file: notebooks/gallup_analysis.ipynb
